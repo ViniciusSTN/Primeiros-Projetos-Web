@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaskara</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div id="container">
+        <header>
+            <h1>Bhaskara Solver</h1>
+        </header>
+
+        <main>
+            <div class="flex space-between">
+                <div>
+                    <form action="">
+                        <div class="input-item">
+                            <label for="term-a">Term A:</label>
+                            <input type="number" name="term-a" id="term-a" oninput="setTermsValue(event,'a')">
+                        </div>
+    
+                        <div class="input-item">
+                            <label for="term-b">Term B:</label>
+                            <input type="number" name="term-b" id="term-b" oninput="setTermsValue(event,'b')">
+                        </div>
+    
+                        <div class="input-item">
+                            <label for="term-c">Term C:</label>
+                            <input type="number" name="term-c" id="term-c" oninput="setTermsValue(event,'c')">
+                        </div>
+                    </form>
+                </div>
+    
+                <div class="flex">
+                    <img src="imagens/delta.png" alt="delta" width="20px">
+                    <div>
+                        = (<span class="b-element">b</span>)<sup>2</sup> - (4) . (<span class="a-element">a</span>) . (<span class="c-element">c</span>)
+                    </div>
+                </div>
+    
+                <div>
+                    <div class="flex">
+                        <div class="x-item">
+                            x =
+                        </div>
+    
+                        <div>
+                            <div class="flex formula-div">
+                                <div>
+                                    - (<span class="b-element">b</span>)
+                                </div>
+                                <div>
+                                    <img src="imagens/+ -.png" alt="+-" width="10px">
+                                </div>
+                                <div>
+                                    <img src="imagens/Union.png" alt="delta" width="50px">
+                                </div>
+                            </div>
+        
+                            <div class="hr"></div>
+        
+                            <div class="flex formula-div">
+                                <div>
+                                    2 . (<span class="a-element">a</span>)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div>
+                    <div class="input-item">
+                        <label for="x1">X1</label>
+                        <input type="number" name="x1" id="x1" disabled>
+                    </div>
+    
+                    <div class="input-item">
+                        <label for="x2">X2</label>
+                        <input type="number" name="x2" id="x2" disabled>
+                    </div>
+                </div>
+            </div>
+
+            <div class="error" id="error"></div>
+        </main>
+    </div>
+
+
+<script src="./script.js"></script>
+
+</body>
+</html>

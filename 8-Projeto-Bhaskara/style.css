@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 96px;
+}
+
+header {
+    padding-top: 30px;
+    text-align: center;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.input-item {
+    margin: 10px 0;
+}
+
+.input-item label {
+    text-align: center;
+    display: block;
+}
+
+input[type="number"] {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #9b9b9b;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.formula-div {
+    height: 40px;
+}
+
+.hr {
+    border: 1px solid #000000;
+}
+
+.x-item {
+    margin-right: 10px;
+}
+
+.error {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ff0000;
+    text-align: center;
+}
