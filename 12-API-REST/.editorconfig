@@ -1,0 +1,13 @@
+root = true
+
+[*]
+indent_style = space
+# alterar indent_size de 4 para 2
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+# alterar os dois abaixo para true
+trim_trailing_whitespace = true
+insert_final_newline = true
+# adicionar a linha abaixo
+end_of_line = lf

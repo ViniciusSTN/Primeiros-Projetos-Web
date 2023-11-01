@@ -1,0 +1,1 @@
+Para o código ficar mais organizado, colocar app.js e server.js dentro de src
